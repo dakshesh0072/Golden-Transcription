@@ -26,11 +26,9 @@ Before running the project:
 
 
 
-```bash
-
 Input\_Data.xlsx
 
-```
+
 
 
 
