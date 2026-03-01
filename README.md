@@ -1,4 +1,4 @@
-\# 🎯 Golden-Transcription
+\#  Golden-Transcription
 
 
 
@@ -10,7 +10,7 @@ A fully local, GPU-accelerated hybrid transcription scoring system that selects 
 
 
 
-\# 📌 Important Setup Instructions
+\# Important Setup Instructions
 
 
 
@@ -58,7 +58,7 @@ option\_5
 
 
 
-⚠️ Do \*\*not\*\* change column names or structure.
+&nbsp;Do \*\*not\*\* change column names or structure.
 
 
 
@@ -66,7 +66,7 @@ option\_5
 
 
 
-\# 🐍 Python Requirement
+\# Python Requirement
 
 
 
@@ -82,7 +82,7 @@ Python 3.11.x
 
 
 
-❌ Do \*\*NOT\*\* use Python 3.12+ (may cause PyTorch/Whisper compatibility issues).
+&nbsp;Do \*\*NOT\*\* use Python 3.12+ (may cause PyTorch/Whisper compatibility issues).
 
 
 
@@ -102,7 +102,7 @@ python --version
 
 
 
-\# 🔧 Recommended: Create Virtual Environment
+\#  Recommended: Create Virtual Environment
 
 
 
@@ -138,11 +138,11 @@ source .venv/bin/activate
 
 
 
-\# 📦 Required Libraries
+\# Required Libraries
 
 
 
-\## 🔥 Step 1: Install PyTorch with CUDA (GPU Recommended)
+\## Step 1: Install PyTorch with CUDA (GPU Recommended)
 
 
 
@@ -168,7 +168,7 @@ https://pytorch.org/get-started/locally/
 
 
 
-\## 📥 Step 2: Install Remaining Dependencies
+\## Step 2: Install Remaining Dependencies
 
 
 
@@ -198,7 +198,7 @@ pip install tqdm
 
 
 
-\# 🧠 Libraries Used \& Why
+\# Libraries Used \& Why
 
 
 
@@ -278,7 +278,7 @@ pip install tqdm
 
 
 
-\# ▶️ How To Run The Project
+\# How To Run The Project
 
 
 
@@ -302,7 +302,7 @@ That’s it. The entire pipeline runs automatically.
 
 
 
-\# 📤 Output
+\# Output
 
 
 
@@ -342,7 +342,7 @@ This is the final required submission file.
 
 
 
-\# 📂 Note About Other Files in `src/`
+\# Note About Other Files in `src/`
 
 
 
@@ -396,11 +396,11 @@ run\_full\_pipeline.py
 
 
 
-\# 🧩 Project Approach
+\# Project Approach
 
 
 
-\## 🎯 Problem
+\## Problem
 
 
 
@@ -426,7 +426,7 @@ Select the most accurate transcript for each audio file.
 
 
 
-\# 🏗️ Our Approach
+\# Our Approach
 
 
 
@@ -444,7 +444,7 @@ We designed a \*\*Hybrid Scoring System\*\* combining:
 
 
 
-\## 1️⃣ Alignment-Based Scoring
+\## 1) Alignment-Based Scoring
 
 
 
@@ -496,7 +496,7 @@ Higher score indicates better match with actual speech.
 
 
 
-\## 2️⃣ Agreement-Based Scoring
+\## 2) Agreement-Based Scoring
 
 
 
@@ -534,7 +534,7 @@ Higher score indicates stronger agreement with other transcript options.
 
 
 
-\# ⚖️ Final Hybrid Score
+\#  Final Hybrid Score
 
 
 
@@ -562,7 +562,7 @@ Weights were optimized experimentally.
 
 
 
-\# 🏆 Final Decision
+\#  Final Decision
 
 
 
@@ -586,7 +586,7 @@ For each audio:
 
 
 
-\# 💡 Why This Hybrid Approach?
+\#  Why This Hybrid Approach?
 
 
 
@@ -604,7 +604,7 @@ For each audio:
 
 
 
-\# 📊 Result
+\#  Result
 
 
 
