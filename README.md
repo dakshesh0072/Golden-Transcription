@@ -26,11 +26,11 @@ Before running the project:
 
 
 
-```bash
+
 
 Input\_Data.xlsx
 
-```
+
 
 
 
@@ -39,8 +39,6 @@ Input\_Data.xlsx
 \- The format and column names must \*\*exactly\*\* match:
 
 
-
-```text
 
 audio
 
@@ -54,15 +52,13 @@ option\_4
 
 option\_5
 
-```
+
 
 
 
 &nbsp;Do \*\*not\*\* change column names or structure.
 
 
-
----
 
 
 
@@ -74,11 +70,11 @@ This project requires:
 
 
 
-```text
+
 
 Python 3.11.x
 
-```
+
 
 
 
@@ -90,15 +86,11 @@ Check your version:
 
 
 
-```bash
+
 
 python --version
 
-```
 
-
-
----
 
 
 
@@ -110,13 +102,9 @@ python --version
 
 
 
-```bash
-
 python -m venv .venv
 
 .venv\\Scripts\\activate
-
-```
 
 
 
@@ -124,17 +112,13 @@ python -m venv .venv
 
 
 
-```bash
-
 python -m venv .venv
 
 source .venv/bin/activate
 
-```
 
 
 
----
 
 
 
@@ -150,11 +134,9 @@ For CUDA 12.4:
 
 
 
-```bash
+
 
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
-
-```
 
 
 
@@ -172,8 +154,6 @@ https://pytorch.org/get-started/locally/
 
 
 
-```bash
-
 pip install openai-whisper
 
 pip install pandas
@@ -190,11 +170,9 @@ pip install requests
 
 pip install tqdm
 
-```
 
 
 
----
 
 
 
@@ -286,11 +264,9 @@ After completing setup, run:
 
 
 
-```bash
+
 
 python src/run\_full\_pipeline.py
-
-```
 
 
 
@@ -298,7 +274,7 @@ That’s it. The entire pipeline runs automatically.
 
 
 
----
+
 
 
 
@@ -310,11 +286,9 @@ After execution, the final file will be generated at:
 
 
 
-```text
-
 output/final\_submission.xlsx
 
-```
+
 
 
 
@@ -338,8 +312,6 @@ This is the final required submission file.
 
 
 
----
-
 
 
 \# Note About Other Files in `src/`
@@ -350,8 +322,6 @@ The following files exist only to support experimentation and weight optimizatio
 
 
 
-```text
-
 optimise\_weights.py
 
 alignment\_scoring.py
@@ -360,7 +330,7 @@ agreement\_scoring.py
 
 run\_compute\_base\_scores.py
 
-```
+
 
 
 
@@ -384,15 +354,11 @@ Only this file is required for full execution:
 
 
 
-```text
+
 
 run\_full\_pipeline.py
 
-```
 
-
-
----
 
 
 
@@ -626,7 +592,7 @@ On labeled samples:
 
 
 
-\# ✅ Final Summary
+\# Final Summary
 
 
 
